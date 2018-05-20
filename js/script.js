@@ -73,7 +73,7 @@ context.strokeStyle = "#BFBFBF";
 var logo = new Image();
 logo.src = "images/logo.png";
 logo.onload = function () {
-    context.drawImage(logo, 0, 0, 450, 450);
+    context.drawImage(logo, 0, 0, 800, 800);
     drawChessBoard();
 
 };
